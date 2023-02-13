@@ -3,13 +3,10 @@ package com.berk;
 import com.berk.controller.AracController;
 import com.berk.controller.KiralamaController;
 import com.berk.controller.KisiController;
-import com.berk.repository.entity.ECinsiyet;
-import com.berk.repository.entity.Kisi;
-import com.berk.service.KisiService;
 
 import java.util.Scanner;
 
-public class Main {
+public class RentCarApp {
     public static void main(String[] args) {
         int secim;
         Scanner scanner = new Scanner(System.in);
